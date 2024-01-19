@@ -1,0 +1,47 @@
+html{
+    font-family: 'Quicksand', sans-serif;
+}
+.item img:hover{
+    transform: scale(1.05);
+    transition: all ease ;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgb(136, 219, 140);
+}
+h1{
+    font-weight:300;
+}
+.heading{
+    font-size: 62px;
+font-family: 'Amatic SC', cursive;
+}
+a{
+    text-decoration: none;
+}
+#logo{
+    width: 150px;
+    height:150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.heading,
+.recipe-title{
+    text-align: center;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items:center;
+    width:400px;
+    text-align: center;
+}
+.content{
+    gap:40px;
+    display: flex;
+}
+div img{
+    
+    width:350px;
+    height:500px;
+}
